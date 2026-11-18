@@ -146,7 +146,10 @@ footer b{color:#fff;display:block;margin-bottom:8px;font-weight:400;font-family:
   .grid,.grid.three,.four,.two,.banners,.banners.three,.proof .wrap,.ig,footer .wrap,.split,.hi{grid-template-columns:1fr}
   aside{position:static}
   .hero h1{font-size:36px}.wrap{padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}.exphero .wrap{padding-top:120px}.price{display:block;overflow-x:auto}.pagehead h1,.exphero h1{font-size:30px}
-  nav a:not(.book):not(.lang){display:none}
+  header .wrap{flex-wrap:wrap;height:auto;padding-top:14px;padding-bottom:10px;row-gap:10px}
+  nav{width:100%;overflow-x:auto;gap:18px;white-space:nowrap;padding-bottom:4px;-webkit-overflow-scrolling:touch}
+  nav .book{padding:7px 14px}
+  .hero .wrap{padding-top:170px}
   .price{font-size:13.5px}.price th,.price td{padding:10px 8px}
   section{padding:56px 0}
 }
