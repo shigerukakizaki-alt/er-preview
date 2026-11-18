@@ -228,3 +228,16 @@ nav .book{text-shadow:none}
 .grid.two-col{grid-template-columns:1fr 1fr}
 .grid.two-col .pcard img{height:260px}
 @media(max-width:860px){.grid.two-col{grid-template-columns:1fr}.pcard img,.grid.two-col .pcard img{height:210px}}
+
+/* 会社概要：写真と文字の2列、取引先の一覧（11/18） */
+.split2{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.split2>*{min-width:0}
+.split2>img{width:100%;height:400px;object-fit:cover;display:block;border:1px solid var(--rule)}
+.split2 h2{margin-top:10px}
+.why .split2 p{color:#f0dfd6}
+.split2.rev>img{order:0}
+h3.net{font-size:22px;margin:0 0 8px;color:#f3e3c3}
+.names{list-style:none;margin:16px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.names li{border:1px solid rgba(201,165,103,.5);padding:10px 14px;font-family:"Yu Mincho",Georgia,serif;font-size:15.5px;background:rgba(43,7,7,.45)}
+.why .banners a{background:rgba(43,7,7,.55)}
+@media(max-width:860px){.split2{grid-template-columns:1fr;gap:24px}.split2>img{height:240px}.names{grid-template-columns:1fr}}
