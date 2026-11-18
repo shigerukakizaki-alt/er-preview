@@ -216,3 +216,15 @@ nav .book{text-shadow:none}
 .hi .hp figcaption{padding:12px 14px 14px;font-size:16px;line-height:1.5}
 .hi .hp.nopic{justify-content:center;min-height:100px}
 @media(max-width:860px){.hi .hp img{height:200px}}
+
+/* 写真付きの説明カード（旅行会社向けなど、11/18） */
+.pcard{margin:0;background:var(--panel);border:1px solid var(--rule);display:flex;flex-direction:column}
+.pcard img{width:100%;height:220px;object-fit:cover;display:block}
+.pcard figcaption{padding:20px 22px 22px}
+.pcard h3{font-size:20px;margin:0 0 8px}
+.pcard p{margin:0;color:var(--soft);font-size:14.5px}
+.pcard.dark{background:rgba(43,7,7,.55);border-color:rgba(201,165,103,.45)}
+.pcard.dark p{color:#f0dfd6}
+.grid.two-col{grid-template-columns:1fr 1fr}
+.grid.two-col .pcard img{height:260px}
+@media(max-width:860px){.grid.two-col{grid-template-columns:1fr}.pcard img,.grid.two-col .pcard img{height:210px}}
