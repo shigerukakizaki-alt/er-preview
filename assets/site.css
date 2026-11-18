@@ -194,3 +194,17 @@ footer b{color:#fff;display:block;margin-bottom:8px;font-weight:400;font-family:
 .brand{letter-spacing:.18em;font-size:14px}
 nav{scrollbar-width:none}
 nav::-webkit-scrollbar{display:none}
+
+/* 上の帯：トップでは動画に溶け込ませ、スクロールするとバーガンディの帯になる（11/18） */
+header{position:sticky;top:0;z-index:30;background:#3f0a0a}
+.home header{position:fixed;top:0;left:0;right:0;z-index:30;background:linear-gradient(180deg,rgba(43,7,7,.78) 0%,rgba(43,7,7,.38) 60%,rgba(43,7,7,0) 100%);border:0;transition:background-color .35s}
+.home header.solid{background:#3f0a0a;border-bottom:1px solid var(--rule)}
+header .wrap{height:84px}
+.brand img{height:44px;background:none;border-radius:0;padding:0}
+.fbrand img{height:60px;background:none;border-radius:0;padding:0}
+nav a{text-shadow:0 1px 6px rgba(0,0,0,.45)}
+nav .book{text-shadow:none}
+@media(max-width:860px){
+  header .wrap{height:auto}
+  .brand img{height:36px}
+}
