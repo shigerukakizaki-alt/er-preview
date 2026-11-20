@@ -311,3 +311,9 @@ nav a{white-space:nowrap}
 .jabout p{color:var(--soft)}
 .jabout .btn{margin:6px 8px 0 0}
 @media(max-width:860px){.jfeat{grid-template-columns:1fr}.jfeat img{min-height:220px}.jfeat .body{padding:24px}.jfeat h2{font-size:24px}}
+/* 11/20 トリップアドバイザーの口コミ */
+.tasrc{margin:6px 0 0;font-size:14.5px}
+.tasrc a{color:var(--gold);margin-right:18px}
+.voices.topv{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.voices.topv blockquote{margin:0}
+@media(max-width:860px){.voices.topv{grid-template-columns:1fr}}
