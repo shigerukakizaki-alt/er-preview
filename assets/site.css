@@ -282,3 +282,14 @@ h3.net{font-size:22px;margin:0 0 8px;color:#f3e3c3}
 }
 nav a{white-space:nowrap}
 .film video{aspect-ratio:16/9;object-fit:cover;max-height:72vh}
+/* 11/20 お客様の声・Journal末尾の予約 */
+.voices blockquote{margin:0 0 16px;padding:18px 22px;border-left:3px solid var(--gold);background:var(--panel)}
+.voices blockquote p{margin:0 0 8px;font-size:16px;line-height:1.8;color:var(--soft)}
+.voices blockquote .orig{font-size:13.5px;color:var(--sub)}
+.voices cite{font-style:normal;font-size:13px;color:var(--gold);letter-spacing:.04em}
+.voices.empty{padding:18px 22px;border:1px dashed var(--rule)}
+.voices.empty p{margin:0;font-size:14px;color:var(--sub)}
+.jcta{margin:48px 0 0;padding:28px 30px;border:1px solid var(--gold);background:var(--panel)}
+.jcta h3{font-size:24px;margin:6px 0 8px}
+.article .jcta p{font-size:15.5px;line-height:1.8}
+.jcta .btn{margin:6px 8px 0 0}
