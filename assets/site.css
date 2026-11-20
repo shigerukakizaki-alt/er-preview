@@ -317,3 +317,4 @@ nav a{white-space:nowrap}
 .voices.topv{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .voices.topv blockquote{margin:0}
 @media(max-width:860px){.voices.topv{grid-template-columns:1fr}}
+.jlist .card[hidden],.jfeat[hidden],.sintro[hidden],.jempty[hidden]{display:none}
